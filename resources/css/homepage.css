@@ -1,0 +1,36 @@
+.panel {
+  background-color: crimson;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+}
+.panel_buttons_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 20%;
+  height: 100%;
+  background-color: rgb(187, 61, 61);
+}
+.panel_button {
+  padding: 5px;
+  margin: 2%;
+  height: 90%;
+  width: 50%;
+  background-color: rgb(235, 117, 81);
+  /* border-style: solid; */
+  border-radius: 5px;
+}
+.panel_button p {
+  margin-left: 20%;
+  margin-top: 1%;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 10;
+  color: rgb(255, 255, 255);
+}
+td p {
+  height: 8px;
+  width: 4px;
+  background-color: brown;
+}
